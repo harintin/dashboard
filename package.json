@@ -9,7 +9,12 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.16.0",
+<<<<<<< HEAD
     "react-scripts": "^5.0.1",
+=======
+    "react-scripts": "5.0.1",
+    "spoqa-han-sans": "^3.3.0",
+>>>>>>> 8051ead1e56b3fb11bb1fbb2c6a3c2517f5230cb
     "styled-components": "^6.0.8",
     "styled-reset": "^4.5.1",
     "web-vitals": "^2.1.4"

@@ -1,7 +1,15 @@
+<<<<<<< HEAD
 import { createGlobalStyle } from "styled-components";
 import reset from "styled-reset";
 
 const GlobalStyles = createGlobalStyle` 
+=======
+import { createGlobalStyle } from 'styled-components';
+import reset from 'styled-reset';
+
+const GlobalStyles = createGlobalStyle`
+    ${reset}
+>>>>>>> 8051ead1e56b3fb11bb1fbb2c6a3c2517f5230cb
     :root {
         --primary: #120E46;
         --S_Light: #cbc8ec;
@@ -50,7 +58,10 @@ const GlobalStyles = createGlobalStyle`
         --max-width: 1200px;
         --header-height: 60px;
     }
+<<<<<<< HEAD
     ${reset}
+=======
+>>>>>>> 8051ead1e56b3fb11bb1fbb2c6a3c2517f5230cb
 
     // body {
     //     background: url(images/1.png) no-repeat 100% 0 !important;
@@ -70,7 +81,11 @@ const GlobalStyles = createGlobalStyle`
         line-height: 1.5;
         font-family: 'Spoqa Han Sans Neo', "Malgun Gothic", "맑은 고딕", sans-serif;
         font-weight: 400;
+<<<<<<< HEAD
         color: red;
+=======
+        color: #333;
+>>>>>>> 8051ead1e56b3fb11bb1fbb2c6a3c2517f5230cb
     }
 
     ul, ol, li {
